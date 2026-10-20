@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Getting started and support guide
+    url: https://chrominskyy.github.io/mighty-markdown-site/support.html
+    about: Read supported features, shortcuts, and troubleshooting information.
+  - name: Report a security vulnerability privately
+    url: https://github.com/Chrominskyy/mighty-markdown-site/security/advisories/new
+    about: Keep vulnerability details out of public issues.
