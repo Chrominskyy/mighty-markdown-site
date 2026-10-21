@@ -1,6 +1,6 @@
 # Contributing and getting support
 
-This repository hosts the Mighty Markdown product website and public support tracker. The macOS application source is maintained separately. Public contributions are accepted as **issues**, not pull requests.
+This repository hosts the Mighty Markdown product website and public support tracker. The macOS application source is maintained separately. Use issues for bug reports, feature requests and support questions. Website and community-documentation changes may be proposed through pull requests.
 
 ## Before opening an issue
 
@@ -21,11 +21,11 @@ Describe the task you are trying to complete, what is missing, and any workaroun
 
 Issues and attachments are public. Do not upload private documents, personal details, passwords, tokens, or unredacted logs. Remove private paths and account details from screenshots. Report security vulnerabilities privately using [the security policy](SECURITY.md).
 
-## Maintainer workflow
+## Pull requests and maintainer workflow
 
-Pull requests, Discussions, Wiki, and Projects are disabled. Maintainers review issues and may request more information, link duplicates, or close reports outside this repository's scope. No response-time guarantee is provided.
+Changes to main or master require a pull request and approval from @Chrominskyy, the Code Owner for all files. New reviewable commits dismiss previous approvals. Only @Chrominskyy has a bypass exception for direct pushes. Follow the pull request template and describe verification.
 
-The pull request template is retained for maintainer use if pull requests are enabled in the future; it does not change the current contribution policy.
+Discussions, Wiki, and Projects are disabled. Maintainers review issues and may request more information, link duplicates, or close reports outside this repository's scope. No response-time guarantee is provided.
 
 ## Rights
 

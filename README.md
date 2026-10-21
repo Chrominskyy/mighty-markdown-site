@@ -14,7 +14,7 @@ The product is not yet available on the Mac App Store. Update the availability c
 
 ## Support and community
 
-Use [Issues](https://github.com/Chrominskyy/mighty-markdown-site/issues/new/choose) for bugs, feature requests, and questions. Public pull requests are disabled.
+Use [Issues](https://github.com/Chrominskyy/mighty-markdown-site/issues/new/choose) for bugs, feature requests, and questions. Changes to main or master require a pull request and approval from @Chrominskyy through CODEOWNERS; the owner retains a direct-push bypass.
 
 - [Contribution and support guidelines](CONTRIBUTING.md)
 - [Code of Conduct](CODE_OF_CONDUCT.md)

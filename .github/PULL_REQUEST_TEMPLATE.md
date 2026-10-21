@@ -1,6 +1,6 @@
-## Maintainer checklist
+## Pull request checklist
 
-Public pull requests are currently disabled. Please use an issue for bug reports, feature requests, or support. This template applies only if maintainers enable pull requests in the future.
+Changes to main or master require approval from @Chrominskyy as Code Owner. New reviewable commits dismiss previous approvals. The owner retains a direct-push bypass.
 
 ### Purpose
 
