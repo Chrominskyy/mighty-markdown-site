@@ -1,8 +1,218 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Mighty Markdown | A clearer view of your words.</title><meta name="description" content="A native Markdown reader and editor for macOS. Read, edit, and navigate your files with split view, an outline, and a minimap."><link rel="canonical" href="https://chrominskyy.github.io/mighty-markdown-site/"><meta property="og:type" content="website"><meta property="og:title" content="Mighty Markdown | A clearer view of your words."><meta property="og:description" content="A native Markdown reader and editor for macOS. Read, edit, and navigate your files with split view, an outline, and a minimap."><meta property="og:url" content="https://chrominskyy.github.io/mighty-markdown-site/"><meta property="og:image" content="https://chrominskyy.github.io/mighty-markdown-site/split.png"><link rel="icon" type="image/png" href="icon.png"><link rel="stylesheet" href="style.css"><script src="site.js" defer></script></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header wrap"><a class="brand" href="./"><img src="icon.png" alt="" width="36" height="36">Mighty Markdown</a><nav aria-label="Main navigation"><a href="./#workspace">The workspace</a><a href="support.html">Support</a></nav></header><main id="main">
-<section class="hero wrap"><p class="eyebrow">Markdown, at home on Mac.</p><h1>A clearer view.<br><span>A little more focus.</span></h1><div class="hero-bottom"><p>Read, write, and find your way through Markdown.<br>A native workspace for the files you already own.</p><a class="button" href="#workspace">Explore the workspace <span aria-hidden="true">↗</span></a></div></section>
-<section class="workspace wrap" id="workspace" aria-labelledby="workspace-title"><div class="workspace-heading"><h2 id="workspace-title">Your words. Your way.</h2><div class="view-switch" role="group" aria-label="Screenshot view"><button type="button" data-view="read" aria-pressed="false">Read</button><button type="button" data-view="split" aria-pressed="true">Split</button></div></div><figure><img id="workspace-image" src="split.png" width="1133" height="768" alt="Mighty Markdown in Split mode, with Markdown source beside its rendered preview, a heading outline on the left, and a minimap on the right." fetchpriority="high"><figcaption id="workspace-caption" aria-live="polite">Source and preview, side by side. Both panes follow the same part of your document.</figcaption></figure></section>
-<section class="details wrap" aria-labelledby="details-title"><div class="section-intro"><h2 id="details-title">Less between you<br>and the document.</h2><p>Familiar Mac controls. Thoughtful ways to move through a page. Room for the work itself.</p></div><dl class="feature-list"><div><dt>Three ways to work</dt><dd>Read comfortably, edit your Markdown, or keep source and preview together in Split mode.</dd></div><div><dt>Find the next thought</dt><dd>Filter the heading outline. Click or drag the minimap to jump through longer documents.</dd></div><div><dt>Make room for reading</dt><dd>Choose your prose and code fonts, adjust text size and reading width, or turn on focus mode.</dd></div><div><dt>A familiar Mac experience</dt><dd>Native windows, undo, redo, find, and system light and dark appearances. No new workflow to learn.</dd></div></dl></section>
-<section class="file-note wrap" aria-labelledby="files-title"><div class="file-extension" aria-hidden="true">.md</div><div><h2 id="files-title">Files, not a platform.</h2><p>Your documents stay in ordinary Markdown files. Open them, edit them, and save them where you choose. No account, analytics, or advertising.</p><a class="text-link" href="privacy.html">Read the privacy policy <span aria-hidden="true">↗</span></a></div></section>
-<section class="release wrap" aria-labelledby="release-title"><div><h2 id="release-title">A native space<br>for your next draft.</h2><p>Mighty Markdown is being prepared for the Mac App Store.<br>Requires macOS 26 or later. Apple Silicon and Intel.</p></div><a class="button secondary" href="support.html">Read the getting started guide <span aria-hidden="true">↗</span></a></section>
-</main><footer class="site-footer wrap"><a class="brand" href="./"><img src="icon.png" alt="" width="28" height="28">Mighty Markdown</a><p>Made for your Mac. Built around your files.</p><nav aria-label="Footer navigation"><a href="support.html">Support</a><a href="privacy.html">Privacy</a><a href="https://github.com/Chrominskyy/mighty-markdown-site">GitHub</a></nav><small>© 2026 Chrominsky</small></footer></body></html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f6f1e7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121120" media="(prefers-color-scheme: dark)">
+<title>Mighty Markdown | A clearer view of your words</title>
+<meta name="description" content="A native Markdown reader and editor for macOS. Read, edit and navigate your files in Read, Edit and Split modes, with a heading outline and a minimap.">
+<link rel="canonical" href="https://chrominskyy.github.io/mighty-markdown-site/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Mighty Markdown">
+<meta property="og:title" content="Mighty Markdown | A clearer view of your words">
+<meta property="og:description" content="A native Markdown reader and editor for macOS, with Read, Edit and Split modes, a heading outline and a minimap.">
+<meta property="og:url" content="https://chrominskyy.github.io/mighty-markdown-site/">
+<meta property="og:image" content="https://chrominskyy.github.io/mighty-markdown-site/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Mighty Markdown. A clearer view.">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preload" href="assets/fonts/newsreader-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/fonts/fonts.css">
+<link rel="stylesheet" href="assets/site.css">
+<script>document.documentElement.classList.remove("no-js")</script>
+<script src="assets/site.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="./" aria-label="Mighty Markdown home">
+      <img src="assets/icon.png" alt="Mighty Markdown app icon" width="32" height="32">
+      <span>Mighty Markdown</span>
+    </a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a class="wide" href="#workspace">Workspace</a>
+      <a class="wide" href="#markdown">Markdown</a>
+      <a class="wide" href="#shortcuts">Shortcuts</a>
+      <a href="support.html">Support</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" aria-labelledby="hero-h">
+    <div class="wrap">
+      <p class="eyebrow rise" style="--d:0">Markdown, at home on Mac</p>
+      <h1 id="hero-h">
+        <span class="line rise" style="--d:1"><span class="mk" aria-hidden="true">#</span>A clearer view.</span>
+        <span class="line rise" style="--d:2"><span class="mk" aria-hidden="true">*</span><em>A little more focus.</em><span class="mk close" aria-hidden="true">*</span></span>
+      </h1>
+      <div class="hero-foot rise" style="--d:3">
+        <p>Read, write and find your way through Markdown. A native workspace for the files you already own.</p>
+        <div class="cta-row">
+          <a class="button primary" href="#workspace">See the workspace</a>
+          <a class="button" href="support.html">Getting started</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="workspace" id="workspace" aria-labelledby="workspace-h">
+    <div class="wrap">
+      <div class="workspace-bar">
+        <h2 id="workspace-h" class="visually-hidden">The workspace</h2>
+        <div class="seg" role="group" aria-label="Show the workspace in">
+          <button type="button" data-mode="read" aria-pressed="false">Read<kbd>⌘1</kbd></button>
+          <button type="button" data-mode="edit" aria-pressed="false">Edit<kbd>⌘2</kbd></button>
+          <button type="button" data-mode="split" aria-pressed="true">Split<kbd>⌘3</kbd></button>
+        </div>
+        <p>macOS · real app screenshots</p>
+      </div>
+      <figure class="frame" id="frame">
+        <picture>
+          <source id="shot-webp" srcset="assets/shots/split.webp" type="image/webp">
+          <img id="shot" src="assets/shots/split.jpg" alt="Mighty Markdown in Split mode: Markdown source beside the rendered preview, the heading outline on the left and the minimap on the right" width="1600" height="1000" fetchpriority="high">
+        </picture>
+      </figure>
+      <p class="caption" id="shot-caption" aria-live="polite">Split: source and preview side by side. Both panes follow the same part of your document.</p>
+    </div>
+  </section>
+
+  <section class="section" id="features" aria-labelledby="features-h">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="features-h"><span class="mk" aria-hidden="true">##</span>Less between you and <em>the document.</em></h2>
+        <p>Familiar Mac controls, thoughtful ways to move through a page, and room for the work itself.</p>
+      </div>
+      <div class="features">
+        <div class="feature"><h3><span class="mk" aria-hidden="true">01</span>Three ways to work</h3><p>Read comfortably, edit your Markdown, or keep source and preview together in Split mode.</p></div>
+        <div class="feature"><h3><span class="mk" aria-hidden="true">02</span>Find the next thought</h3><p>Filter the heading outline to jump to a section. It works with repeated headings too.</p></div>
+        <div class="feature"><h3><span class="mk" aria-hidden="true">03</span>A minimap for long files</h3><p>See where you are in the document. Click or drag anywhere on it to move.</p></div>
+        <div class="feature"><h3><span class="mk" aria-hidden="true">04</span>Room for reading</h3><p>Choose prose and code fonts, adjust text size and reading width, or turn on focus mode.</p></div>
+        <div class="feature"><h3><span class="mk" aria-hidden="true">05</span>A familiar Mac</h3><p>Native windows, undo, redo, find, multiple windows, and system light and dark appearances.</p></div>
+        <div class="feature"><h3><span class="mk" aria-hidden="true">06</span>Panes that stay together</h3><p>In Split mode, scrolling follows source lines and document blocks, so both sides show the same passage.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="markdown" aria-labelledby="markdown-h">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="markdown-h"><span class="mk" aria-hidden="true">##</span>Markdown in, <em>document out.</em></h2>
+        <p>The everyday syntax renders as a calm, readable page, with highlighting for code in recognized languages.</p>
+      </div>
+      <div class="compare">
+        <div class="source">
+          <span class="pane-label">Markdown</span>
+<pre><span class="h">## Made for reading</span>
+
+Use the <span class="b">**outline**</span> to move between ideas.
+The <span class="b">**minimap**</span> shows where you are.
+
+<span class="q">&gt; The document takes the stage.</span>
+
+<span class="h">### Small things</span>
+<span class="l">- [x]</span> Open a file from Finder
+<span class="l">- [x]</span> Choose a reading width
+<span class="l">- [ ]</span> Turn on focus mode <span class="c">⇧⌘F</span></pre>
+        </div>
+        <div class="rendered">
+          <span class="pane-label">Preview</span>
+          <div class="doc">
+            <h3>Made for reading</h3>
+            <p>Use the <strong>outline</strong> to move between ideas. The <strong>minimap</strong> shows where you are.</p>
+            <blockquote>The document takes the stage.</blockquote>
+            <h4>Small things</h4>
+            <ul>
+              <li><span class="box done" aria-label="done"></span>Open a file from Finder</li>
+              <li><span class="box done" aria-label="done"></span>Choose a reading width</li>
+              <li><span class="box" aria-label="not done"></span>Turn on focus mode</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="support-lists">
+        <div>
+          <h3>Supported</h3>
+          <p>Headings, emphasis, lists, task lists, quotes, links, tables and fenced code blocks with language labels. UTF-8 documents, with the original line endings kept on save.</p>
+        </div>
+        <div>
+          <h3>Not yet</h3>
+          <p>Math, Mermaid diagrams, footnotes and PDF export. Images show their alternative text, and HTML appears as text.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="shortcuts" aria-labelledby="shortcuts-h">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="shortcuts-h"><span class="mk" aria-hidden="true">##</span>Your everyday <em>shortcuts.</em></h2>
+        <p>The keys you already know from the Mac, plus a few for moving between modes.</p>
+      </div>
+      <div class="keys">
+        <div class="key">Read<span><kbd>⌘</kbd><kbd>1</kbd></span></div>
+        <div class="key">Edit<span><kbd>⌘</kbd><kbd>2</kbd></span></div>
+        <div class="key">Split<span><kbd>⌘</kbd><kbd>3</kbd></span></div>
+        <div class="key">Find in focused pane<span><kbd>⌘</kbd><kbd>F</kbd></span></div>
+        <div class="key">Focus mode<span><kbd>⇧</kbd><kbd>⌘</kbd><kbd>F</kbd></span></div>
+        <div class="key">Toggle minimap<span><kbd>⇧</kbd><kbd>⌘</kbd><kbd>M</kbd></span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="files" aria-labelledby="files-h">
+    <div class="wrap files">
+      <div class="ext" aria-hidden="true">.md</div>
+      <div>
+        <h2 id="files-h">Files, not a platform.</h2>
+        <p>Your documents stay ordinary Markdown files. Open them, edit them, and save them where you choose. No account, server, database, analytics or advertising.</p>
+        <a href="privacy.html">Read the privacy policy</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="get" aria-labelledby="get-h">
+    <div class="wrap">
+      <div class="release">
+        <div>
+          <h2 id="get-h">A native space for <em>your next draft.</em></h2>
+          <p>Mighty Markdown is being prepared for the Mac App Store and is not yet publicly available there. A link will appear here once it is.</p>
+          <div class="cta-row">
+            <a class="button primary" href="support.html">Read the getting started guide</a>
+            <a class="button" href="https://github.com/Chrominskyy/mighty-markdown-site/issues/new/choose">Ask a question</a>
+          </div>
+        </div>
+        <ul class="req" aria-label="Requirements">
+          <li>System <b>macOS 26 or later</b></li>
+          <li>Mac <b>Apple silicon and Intel</b></li>
+          <li>Documents <b>UTF-8 Markdown</b></li>
+          <li>Account <b>none needed</b></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div>
+      <a class="brand" href="./"><img src="assets/icon.png" alt="Mighty Markdown app icon" width="32" height="32"><span>Mighty Markdown</span></a>
+      <p>Made for your Mac. Built around your files. © 2026 Bartosz Chrominski.</p>
+    </div>
+    <nav class="footer-links" aria-label="Footer">
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="https://github.com/Chrominskyy/mighty-markdown-site">GitHub</a>
+      <a href="https://chrominsky.dev">chrominsky.dev</a>
+    </nav>
+  </div>
+</footer>
+</body>
+</html>
