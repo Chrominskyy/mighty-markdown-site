@@ -4,7 +4,7 @@ This repository hosts the Mighty Markdown product website and public support tra
 
 ## Before opening an issue
 
-- Read the [support guide](https://chrominskyy.github.io/mighty-markdown-site/support.html) and search existing issues.
+- Read the [support guide](https://mightymarkdown.chrominsky.dev/support.html) and search existing issues.
 - Choose the bug report, feature request, or support question template.
 - Write in English or Polish. Use one issue per problem or request.
 - Follow the [Code of Conduct](CODE_OF_CONDUCT.md).
