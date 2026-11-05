@@ -4,9 +4,20 @@ Public product website, support guide, and privacy policy. The macOS app source 
 
 Hosted at https://chrominskyy.github.io/mighty-markdown-site/ using GitHub Pages.
 
-This site uses plain HTML, CSS, and JavaScript with local assets and no build step, analytics, tracking, or third-party fonts.
+This site uses plain HTML, CSS and a few lines of optional JavaScript, with local assets (including self-hosted fonts) and no build step, analytics, tracking or third-party fonts.
 
 Preview: `python3 -m http.server 8765`
+
+Check before publishing: `python3 scripts/check_site.py` (metadata, links, anchors, headings, forbidden claims, `noindex` on the `_old/` backup).
+
+| Path | Purpose |
+| --- | --- |
+| `index.html`, `support.html`, `privacy.html` | The three pages |
+| `assets/site.css`, `assets/site.js` | Styles and the Read / Edit / Split switch |
+| `assets/fonts/` | Newsreader and Fragment Mono (SIL OFL 1.1) |
+| `assets/shots/` | App screenshots (WebP and JPEG) |
+| `docs/design.md` | Design notes |
+| `_old/` | Previous site, kept as a `noindex` backup |
 
 Publish: repository Settings > Pages, deploy from the `main` branch, root directory.
 
