@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /mighty-markdown-site/_old/
 
-Sitemap: https://chrominskyy.github.io/mighty-markdown-site/sitemap.xml
+Sitemap: https://mightymarkdown.chrominsky.dev/sitemap.xml
