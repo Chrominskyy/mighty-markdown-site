@@ -73,6 +73,7 @@ a:hover { color: var(--accent-2); }
 .skip:focus { left: 8px; }
 .wrap { width: 100%; max-width: var(--max); margin: 0 auto; padding: 0 var(--gutter); }
 code, kbd { font-family: var(--mono); font-size: .8em; }
+.mk[data-mk]::before { content: attr(data-mk); }
 .mk { color: var(--mark); font-family: var(--mono); font-weight: 400; font-style: normal; letter-spacing: 0; }
 
 /* ---------- header ---------- */
