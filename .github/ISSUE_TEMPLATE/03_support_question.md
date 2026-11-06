@@ -20,7 +20,7 @@ Mention relevant steps from the support guide and what happened.
 
 ## Before submitting
 
-- [ ] I read https://chrominskyy.github.io/mighty-markdown-site/support.html and searched existing issues.
+- [ ] I read https://mightymarkdown.chrominsky.dev/support.html and searched existing issues.
 - [ ] This question contains no private documents, personal details, passwords, tokens, or unredacted logs.
 
 For conduct concerns, request a private moderation contact without posting identities or incident details. For security vulnerabilities, use the private reporting link in SECURITY.md.

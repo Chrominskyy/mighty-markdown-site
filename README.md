@@ -2,7 +2,7 @@
 
 Public product website, support guide, and privacy policy. The macOS app source is maintained separately.
 
-Hosted at https://chrominskyy.github.io/mighty-markdown-site/ using GitHub Pages.
+Hosted at https://mightymarkdown.chrominsky.dev/ using GitHub Pages.
 
 This site uses plain HTML, CSS and a few lines of optional JavaScript, with local assets (including self-hosted fonts) and no build step, analytics, tracking or third-party fonts.
 
