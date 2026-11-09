@@ -274,3 +274,21 @@ td kbd { min-width: 26px; height: 26px; font-size: 13px; }
 .brand span { white-space: nowrap; }
 @media (max-width: 420px) { .brand { font-size: 18px; gap: 8px; } .brand img { width: 28px; height: 28px; } .site-nav { gap: 12px; font-size: 12.5px; } }
 @media (max-width: 370px) { .site-header .brand span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); } }
+
+/* ---------- launch ribbon ---------- */
+.ribbon {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 4px 12px;
+  padding: 9px var(--gutter); background: var(--accent); color: var(--on-accent);
+  font-family: var(--mono); font-size: 13px; line-height: 1.4; text-align: center; text-decoration: none;
+}
+.ribbon:hover, .ribbon:focus-visible { color: var(--on-accent); }
+.ribbon:hover .ribbon-main { text-decoration: underline; text-underline-offset: 3px; }
+.ribbon:focus-visible { outline: 2px solid var(--on-accent); outline-offset: -4px; }
+.ribbon b { font-weight: 700; }
+.ribbon-note {
+  font-size: 11px; letter-spacing: .06em; text-transform: uppercase;
+  padding: 2px 8px; border-radius: 999px; border: 1px solid currentColor; opacity: .9;
+}
+.ribbon-arrow { transition: transform .2s ease; }
+.ribbon:hover .ribbon-arrow { transform: translateX(3px); }
+@media (prefers-reduced-motion: reduce) { .ribbon-arrow { transition: none; } }
