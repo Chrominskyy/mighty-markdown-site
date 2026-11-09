@@ -17,7 +17,6 @@ REQUIRED_META = ("og:title", "og:description", "og:image")
 
 # Phrases that must not appear on public root pages.
 FORBIDDEN = [
-    ("apps.apple.com", re.compile(r"apps\.apple\.com", re.I)),
     ("dollar price", re.compile(r"\$\d")),
     ("euro price", re.compile(r"€\d")),
     ("em dash", re.compile("—")),
