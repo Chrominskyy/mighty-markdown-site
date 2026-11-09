@@ -4,7 +4,7 @@
 
 This repository covers the current Mighty Markdown website and receives reports about the Mighty Markdown macOS app. App source is maintained separately. Security fixes target the current website and the latest available app release; older app releases do not have a separate maintenance commitment.
 
-The app is currently being prepared for its first Mac App Store release. Reports about the current prerelease build are also welcome.
+The app is available on the Mac App Store. Reports about prerelease builds are also welcome.
 
 ## Report a vulnerability privately
 

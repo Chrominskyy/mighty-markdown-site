@@ -18,7 +18,7 @@ Editorial static site: a reading room rather than a product page. Three pages (`
 
 ## Content rules
 
-Describe implemented behavior only. No App Store link, price or rating until the app is public. Unsupported Markdown features stay listed as "Not yet".
+Describe implemented behavior only. The app is public on the Mac App Store. No price or rating claims. Unsupported Markdown features stay listed as "Not yet".
 
 ## Backup
 
