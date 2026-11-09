@@ -21,7 +21,7 @@ Check before publishing: `python3 scripts/check_site.py` (metadata, links, ancho
 
 Publish: repository Settings > Pages, deploy from the `main` branch, root directory.
 
-The app is available on the Mac App Store worldwide.
+The app is available on the [Mac App Store](https://apps.apple.com/app/id6825073540?mt=12) worldwide.
 
 ## Support and community
 
